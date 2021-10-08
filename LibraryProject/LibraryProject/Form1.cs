@@ -7,14 +7,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LibraryProject.logica;
+
 
 namespace LibraryProject
 {
     public partial class Form1 : Form
     {
+        Libro objectLibro = new Libro();
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DataSet dt = new DataSet();
+            dt = objectLibro.getAllBooks();
+            dgvLibros.DataSource = dt;
+            dgvLibros.DataMember = "Libro"; 
+            
+           
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
