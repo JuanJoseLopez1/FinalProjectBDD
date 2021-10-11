@@ -91,7 +91,7 @@ namespace LibraryProject
         private void txtTitulo_KeyPress(object sender, KeyPressEventArgs e)
         {
             //Solo Letras
-            if ((e.KeyChar >= 33 && e.KeyChar <= 64) || (e.KeyChar >= 91 && e.KeyChar <= 96) || (e.KeyChar >= 123 && e.KeyChar <= 255))
+            if ((e.KeyChar >= 33 && e.KeyChar <= 43)|| (e.KeyChar >= 46 && e.KeyChar <= 64) || (e.KeyChar >= 91 && e.KeyChar <= 96) || (e.KeyChar >= 123 && e.KeyChar <= 255))
             {
                 e.Handled = true;
             }
