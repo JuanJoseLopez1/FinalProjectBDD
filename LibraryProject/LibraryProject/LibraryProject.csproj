@@ -98,18 +98,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="datos\Datos.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="consultarLibros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="consultarLibros.Designer.cs">
+      <DependentUpon>consultarLibros.cs</DependentUpon>
     </Compile>
+    <Compile Include="datos\Datos.cs" />
+    <Compile Include="formPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPrincipal.Designer.cs">
+      <DependentUpon>formPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="logica\Libreria.cs" />
     <Compile Include="logica\Libro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="RegistrarLibreria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarLibreria.Designer.cs">
+      <DependentUpon>RegistrarLibreria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarLibro.Designer.cs">
+      <DependentUpon>RegistrarLibro.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="consultarLibros.resx">
+      <DependentUpon>consultarLibros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPrincipal.resx">
+      <DependentUpon>formPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -119,7 +141,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegistrarLibreria.resx">
+      <DependentUpon>RegistrarLibreria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarLibro.resx">
+      <DependentUpon>RegistrarLibro.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Oracle.DataAccess.Common.Configuration.Section.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -142,6 +171,10 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\actualizar.png" />
+    <None Include="Resources\actualizar1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

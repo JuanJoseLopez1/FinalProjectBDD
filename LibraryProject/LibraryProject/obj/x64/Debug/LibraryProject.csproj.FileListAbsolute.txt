@@ -21,10 +21,13 @@ D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\b
 D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\bin\x64\Debug\System.Text.Json.xml
 D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\bin\x64\Debug\System.Threading.Tasks.Extensions.xml
 D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\bin\x64\Debug\System.ValueTuple.xml
-D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\obj\x64\Debug\LibraryProject.Form1.resources
 D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\obj\x64\Debug\LibraryProject.Properties.Resources.resources
 D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\obj\x64\Debug\LibraryProject.csproj.GenerateResource.cache
 D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\obj\x64\Debug\LibraryProject.csproj.CoreCompileInputs.cache
 D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\obj\x64\Debug\LibraryProject.exe
 D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\obj\x64\Debug\LibraryProject.pdb
 D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\obj\x64\Debug\LibraryProject.csproj.AssemblyReference.cache
+D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\obj\x64\Debug\LibraryProject.RegistrarLibro.resources
+D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\obj\x64\Debug\LibraryProject.consultarLibros.resources
+D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\obj\x64\Debug\LibraryProject.formPrincipal.resources
+D:\Users\juanlg\Documents\GitHub\FinalProjectBDD\LibraryProject\LibraryProject\obj\x64\Debug\LibraryProject.RegistrarLibreria.resources
